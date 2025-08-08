@@ -84,5 +84,6 @@ list_github_repos(){
 	fi
 }
 
+[ -f .env ] && eval "`${0%/*}/read-dotenv.mjs .env`"
 [ "${GITHUB_USER+1}" ] || GITHUB_USER=`git config github.user || git config user.name`
 list_github_repos "$@"
