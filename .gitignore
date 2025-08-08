@@ -19,4 +19,6 @@ yarn.lock
 
 # Project-specific
 *.html
+*.http
+*.json
 /Docs
