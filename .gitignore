@@ -24,3 +24,6 @@ yarn.lock
 /.env
 /.env.*
 /Docs
+
+# Exceptions
+!.eslintrc.json

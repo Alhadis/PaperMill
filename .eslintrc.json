@@ -1,0 +1,13 @@
+{
+	"extends": "@alhadis",
+	"overrides": [{
+		"files": "animated-knots.js",
+		"globals": {
+			"ButtonInsert":   "readonly",
+			"MaxImages":      "readonly",
+			"ScrollingArray": "readonly",
+			"TheKnot":        "readonly",
+			"reset":          "readonly"
+		}
+	}]
+}
